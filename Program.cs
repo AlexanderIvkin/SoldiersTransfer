@@ -64,7 +64,6 @@ namespace SoldiersTransfer
             foreach (Soldier soldier in platoon)
             {
                 Console.WriteLine($"{count++} Имя - {soldier.Name}.");
-                
             }
         }
     }
